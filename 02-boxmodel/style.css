@@ -1,0 +1,73 @@
+/** {
+    background-color: firebrick;
+}
+
+ */
+
+/**Selector de tag*/
+
+body {
+    margin: 0px;
+}
+
+header{
+    background-color: darkslategray;;
+    height: 50px;
+}
+
+nav {
+    border: solid 2px cyan;
+}
+
+a {
+    /**border: solid 2px green;*/
+    color: honeydew;
+    text-decoration: none;
+    font-family: 'Big Shoulders Text';
+    font-weight: 500;
+    padding: 20px;
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+    font-family: 'Big Shoulders Text';
+    font-weight: 900;
+    text-align: center;
+}
+
+p {
+    
+}
+
+/**Selector de clase*/
+
+.paragraph1 {
+    font-family: 'Big Shoulders Text';
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    border: solid 2px deeppink;
+    margin: 100px;
+    padding: 30px;
+}
+
+.paragraph2 {
+    font-family: 'Big Shoulders Text';
+    font-weight: 200;
+    font-size: 16px;
+    text-align: center;
+}
+
+.image {
+    height: 250px;
+}
+
+.buttonContainer {
+    border: solid 1px black;
+    margin: 150px;
+    padding-left: 400px;
+    }
+/**Margin - Mueve pixeles del borde hacia afuera*/
+
+/**Padding - Muve pixeles del borde hacia adentro*/
