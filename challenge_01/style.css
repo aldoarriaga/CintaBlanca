@@ -1,0 +1,122 @@
+body{
+    margin: 0px;
+}
+
+header {
+margin-top: 20px;
+}
+
+nav {
+    padding-left: 80%;
+}
+
+section {
+}
+
+p {
+    margin-block: 0px;
+}
+
+span {
+    margin-left: 15px;
+}
+
+footer {
+    margin-top: 300px
+}
+
+input {
+    border: solid 1px lightgray;
+    border-radius: 50px;
+    box-shadow: 0px 5px 10px lightgray;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.navigation {
+    text-decoration: none;
+    color: gray;
+    font-family: Roboto;
+    margin-left: 20px;
+}
+
+.inputdiv {
+    width: 40%;
+    margin-left: 30%;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+.inputmic {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.micicon {
+    width: 40px;
+    height: 40px;
+}
+
+.profilepic {
+    width: 35px;
+    height: 35px;
+    object-fit:cover;
+    border-radius:50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.googlelogo {
+    width: 20%;
+    height: 20%;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+.buttonSection {
+    margin: 20px;
+    margin-left: 42%;
+}
+
+.footerParagraph {
+    background-color: rgb(235, 235, 235);
+    border: solid 1px rgb(199, 199, 199);
+    margin: 0px;
+    text-decoration: none;
+    color: gray;
+    font-family: Roboto;
+    font-size: 12px;
+    padding: 10px;
+    position:absolute;
+    bottom:0;                          
+    left:0; auto;
+    width: 100%;
+}
