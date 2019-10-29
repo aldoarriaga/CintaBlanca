@@ -1,0 +1,13 @@
+{
+    "nombre" : 'Aldo',
+    "dirección" : 'Mártires de la Conquista',
+    "teléfono" : '554367807',
+    "email" : 'aldo.arriaga@gmail.com',
+    "edad" : 21,
+    "trabajos" : ['EA','adidas','Freelance'],
+    "equipos" : {
+        "premier" : ['Spurs', 'Man City', 'Liverpool FC'],
+        "laliga" : 'Real Madrid',
+        "Bundesliga" : 'Bayern Munich',
+    }
+}
