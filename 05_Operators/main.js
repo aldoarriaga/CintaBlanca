@@ -78,6 +78,34 @@
 
 
 
+// player1 = prompt('piedra, papel o tijera?').toLowerCase();
+// player2 = prompt('piedra, papel o tijera?').toLowerCase();
+
+// choice = player1 + player2
+
+// if(player1 == player2) {
+//      text = 'Empataron!';
+// } else {
+
+// switch(choice) {
+//     case choice = 'piedrapapel': text = 'Gana Player 2';
+//     break;
+//     case choice = 'piedratijera': text = 'Gana Player 1';
+//     break;
+//     case choice = 'papelpiedra': text = 'Gana Player 1';
+//     break;
+//     case choice = 'papeltijera': text = 'Gana Player 2';
+//     break;
+//     case choice = 'tijerapiedra': text = 'Gana Player 2';
+//     break;
+//     case choice = 'tijerapapel': text = 'Gana Player 1';
+//     break;
+//     default: text = 'Opción inválida';
+//     break;
+// }
+// }
+// document.getElementById("juego").innerHTML = text;
+
 player1 = prompt('piedra, papel o tijera?').toLowerCase();
 player2 = prompt('piedra, papel o tijera?').toLowerCase();
 
@@ -87,21 +115,12 @@ if(player1 == player2) {
      text = 'Empataron!';
 } else {
 
-switch(choice) {
-    case choice = 'piedrapapel': text = 'Gana Player 2';
-    break;
-    case choice = 'piedratijera': text = 'Gana Player 1';
-    break;
-    case choice = 'papelpiedra': text = 'Gana Player 1';
-    break;
-    case choice = 'papeltijera': text = 'Gana Player 2';
-    break;
-    case choice = 'tijerapiedra': text = 'Gana Player 2';
-    break;
-    case choice = 'tijerapapel': text = 'Gana Player 1';
-    break;
-    default: text = 'Opción inválida';
-    break;
+if(choice == 'piedratijera' || choice == 'papelpiedra' || choice == 'tijerapapel') {
+    text = 'Player 1 Gana!';
+} else if(choice == 'tijerapiedra' || choice == 'piedrapapel' || choice == 'papeltijera') {
+    text = 'Player 2 Gana!';
+} else {
+    text = 'No es una opción válida';
 }
 }
 document.getElementById("juego").innerHTML = text;
