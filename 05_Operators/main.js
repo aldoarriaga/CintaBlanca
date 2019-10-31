@@ -115,9 +115,9 @@ if(player1 == player2) {
      text = 'Empataron!';
 } else {
 
-if(choice == 'piedratijera' || choice == 'papelpiedra' || choice == 'tijerapapel') {
+if(choice === 'piedratijera' || choice === 'papelpiedra' || choice === 'tijerapapel') {
     text = 'Player 1 Gana!';
-} else if(choice == 'tijerapiedra' || choice == 'piedrapapel' || choice == 'papeltijera') {
+} else if(choice === 'tijerapiedra' || choice === 'piedrapapel' || choice === 'papeltijera') {
     text = 'Player 2 Gana!';
 } else {
     text = 'No es una opción válida';
