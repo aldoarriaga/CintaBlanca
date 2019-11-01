@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+}
+
+h1 {
+}
+
+.header {
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 36px;
+    color: red;
+    margin: 0px;
+}
+
+.quoteField {
+    width: 100vw;
+    margin: 0px;
+    font-family: fantasy;
+    font-size: 36px;
+    color: darkslategray;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonDiv {
+    margin: 0px;
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 36px;
+    color: red;
+}
+
+.button {
+    background-color: red;
+    border: none;
+    font-family: monospace;
+    font-size: 16pt;
+    color: white;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-radius: 10px;
+
+}
