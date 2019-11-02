@@ -107,8 +107,8 @@
 // document.getElementById("juego").innerHTML = text;
 //
 
-player1 = prompt('piedra, papel o tijera?').toLowerCase();
-player2 = prompt('piedra, papel o tijera?').toLowerCase();
+let player1 = prompt('piedra, papel o tijera?').toLowerCase();
+let player2 = prompt('piedra, papel o tijera?').toLowerCase();
 
 choice = player1 + player2
 
