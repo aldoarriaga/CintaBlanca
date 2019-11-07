@@ -1,0 +1,30 @@
+body {
+    background: url('https://thediyfoodie.com/wp-content/uploads/2015/10/food-wallpaper-20.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+.pagecopy {
+    /* border: solid 1px red; */
+    height: 20vh;
+    width: 100vw;
+}
+
+.titulo {
+    /* border: solid 1px rgb(206, 92, 92); */
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 72px;
+    color: rgb(31, 1, 1);
+}
+
+.buttonsContainer {
+    /* border: solid 1px greenyellow; */
+}
+
+.mainimage {
+    width: 600px;
+    /* border: solid 1px purple; */
+}
